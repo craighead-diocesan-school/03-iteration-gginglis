@@ -8,11 +8,17 @@ function fibonacci() {
   let code = 1
 
 
-  // while (fib <= end) {
-  //   let fib = code + code
-}
+  while (fib <= end) {
+    let 
+    
+    
+    let fib = (code + code)
+    fib = Number(fib)
+    code = Number(code)
+    alert = (fib)
+  }
 
 
 
-alert('da fiboncisninsi code up to ' + end + )
+
 }
