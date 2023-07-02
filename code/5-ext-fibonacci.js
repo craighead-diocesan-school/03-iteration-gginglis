@@ -3,21 +3,28 @@
 // ####################################
 
 function fibonacci() {
-  let end = prompt('what number do you want it to go up to')
+  let number = prompt('what number do you want it to go up to')
+  number = Number(number)
 
-  let code = 1
+
+  let count = 0
+  count = Number(count)
+
+  let red = 0
+  let violet = 1
+  let green = ''
 
 
-  while (fib <= end) {
-    let 
-    
-    
-    let fib = (code + code)
-    fib = Number(fib)
-    code = Number(code)
-    alert = (fib)
+  let sequence = 'the fibonacci sequence is '
+  while (count < number) {
+    green = red + violet
+    red = violet
+    violet = green
+    sequence = sequence + ' ' + green
+    count = green
   }
 
+  alert(sequence)
 
 
 
